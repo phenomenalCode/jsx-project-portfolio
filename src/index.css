@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   box-sizing: border-box;
   margin: 0;
@@ -190,4 +191,9 @@ main {
   .project-list {
     grid-template-columns: 1fr;
   }
+=======
+body {
+  background: pink;
+  color: hotpink;
+>>>>>>> upstream/main
 }

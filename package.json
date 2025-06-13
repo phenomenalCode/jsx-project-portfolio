@@ -10,7 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "framer-motion": "^12.9.1",
+=======
+>>>>>>> upstream/main
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
