@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# react_portfolio
+
 My first work with react
-=======
-# Portfolio
->>>>>>> upstream/main
+
+netlify: https://darius-portfolio100.netlify.app/
