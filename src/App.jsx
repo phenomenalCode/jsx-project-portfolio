@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 import React from 'react';
 import Projects, { projectData } from './projects.jsx'; 
@@ -27,13 +26,3 @@ export const App = () => {
         </div>
     );
 }
-=======
-export const App = () => {
-  return (
-    <>
-      <h1>Portfolio</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, laborum! Maxime animi nostrum facilis distinctio neque labore consectetur beatae eum ipsum excepturi voluptatum, dicta repellendus incidunt fugiat, consequatur rem aperiam.</p>
-    </>
-  )
-}
->>>>>>> upstream/main
