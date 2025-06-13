@@ -23,7 +23,7 @@ export const projectData = [
     title: 'Weather App',
     description: 'A simple weather forecast app.',
     img: img3,
-    github: 'https://github.com/your-username/weather-app',
+    github: 'https://github.com/phenomenalCode/weather-app',
   },
 ];
 
