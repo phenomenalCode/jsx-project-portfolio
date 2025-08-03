@@ -12,7 +12,7 @@ export const projectData = [
     title: 'Reconomy Check-In App',
     description: 'This project is a full-stack time-clock system for employee attendance management.',
     img: img1,
-    github: 'https://github.com/your-username/reconomy-checkin',
+    github: 'https://github.com/phenomenalCode/Reconomy',
   },
   {
     id: 2,
