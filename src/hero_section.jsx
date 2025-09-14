@@ -1,4 +1,4 @@
-import img from './images/20240416_203306.jpg';
+import img from './images/IMG_3912.jpeg';
 import img2 from './images/shutterstock_394793860-1536x1177.jpg';
 
 const HeroSection = () => {
@@ -12,25 +12,28 @@ const HeroSection = () => {
     return (
         <div className="hero-section" style={{ padding: '2rem', textAlign: 'center' }}>
             {/* Circular Profile Image */}
-            <div
-                style={{
-                    width: '300px',
-                    height: '300px',
-                    borderRadius: '50%',
-                    overflow: 'hidden',
-                    margin: '0 auto',
-                }}
-            >
-                <img 
-                    src={img} 
-                    alt="Profile" 
-                    style={{
-                        width: '100%',
-                        height: '100%',
-                        objectFit: 'cover',
-                    }}
-                />
-            </div>
+           <div
+  style={{
+    width: '300px',
+    height: '400px',
+    borderRadius: '50%',
+    overflow: 'hidden',
+    margin: '0 auto',
+  }}
+>
+  <img 
+    src={img} 
+    alt="Profile" 
+    style={{
+      width: '100%',
+      height: '100%',
+      objectFit: 'cover',
+      transform: 'scale(0.9)', // scale down to zoom out
+      transition: 'transform 0.3s', // optional, smooth effect
+    }}
+  />
+</div>
+
 
             {/* Text content */}
             <h1 style={{ marginTop: '2rem' }}>I am Darius Olsson Carter</h1>
