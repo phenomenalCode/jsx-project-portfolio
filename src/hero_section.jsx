@@ -41,7 +41,7 @@ const HeroSection = () => {
                 
                 }
                 >
-                I am a software engineer with a passion for creating user-friendly web applications.
+                I am a junior web developer with a passion for creating user-friendly web applications.
                 I have a strong background in computer science and a keen eye for design, which allows me to bridge the gap between functionality and aesthetics.
                 My goal is to build applications that not only meet user needs but also provide an enjoyable experience.
             </p>
