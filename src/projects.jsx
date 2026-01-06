@@ -5,6 +5,7 @@ import img2 from './images/IMG_3828.jpeg';
 import img3 from './images/weatherapps-android-1weather-5b751ae9c9e77c0057fc06d5.jpg';
 import img4 from './images/IMG_3849.jpeg';
 import img5 from './images/musicrewardsphoto.jpg';
+import img6 from './images/exceltoMysql.png';
 export const projectData = [
   {
     id: 1,
@@ -39,6 +40,13 @@ export const projectData = [
   description: 'MusicRewards is a TypeScript/React Native (Expo) app that provides short music "challenges" (listen to tracks to earn points). It\'s implemented with Expo and React Native, uses Zustand for local app state with AsyncStorage persistence, and expo-av for audio playback. UI is componentized into challenge cards, lists, and small UI primitives (GlassButton/GlassCard) with a central theme tokens file.',
   img: img5,
   github: 'https://github.com/phenomenalCode/Darius-Music-Reward-App/tree/main',
+},
+{
+  id: 6,
+  title: 'Extract excel data',
+  description: 'Excel Employee Data Extractor – A Node.js script that reads employee info from Excel sheets and automatically imports it into a MySQL database, handling multiple sheets and rows with error logging.',
+  img: img6,
+  github: 'https://github.com/phenomenalCode/extract-data-from-excel-file/tree/main',
 },
 
 ];
