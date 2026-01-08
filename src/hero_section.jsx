@@ -77,7 +77,7 @@ I’m motivated by continuous learning, collaboration, and building digital prod
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
           
           <div>
-            <h3>Frontend</h3>
+            <h3 style={{ backgroundColor: '#001f7a', color: 'white' }}>Frontend</h3>
             <ul>
               <li>JavaScript (ES6+)</li>
               <li>TypeScript</li>
@@ -92,7 +92,7 @@ I’m motivated by continuous learning, collaboration, and building digital prod
           </div>
 
           <div>
-            <h3>State & Architecture</h3>
+            <h3  style={{ backgroundColor: '#001f7a', color: 'white' }}>State & Architecture</h3>
             <ul>
               <li>State Management (Zustand)</li>
               <li>Component-Based Architecture</li>
@@ -100,7 +100,7 @@ I’m motivated by continuous learning, collaboration, and building digital prod
           </div>
 
           <div>
-            <h3>Backend</h3>
+            <h3  style={{ backgroundColor: '#001f7a', color: 'white' }}>Backend</h3>
             <ul>
               <li>Node.js</li>
               <li>Authentication (JWT, Sessions)</li>
@@ -110,7 +110,7 @@ I’m motivated by continuous learning, collaboration, and building digital prod
           </div>
 
           <div>
-            <h3>Tools & Deployment</h3>
+            <h3  style={{ backgroundColor: '#001f7a', color: 'white' }}>Tools & Deployment</h3>
             <ul>
               <li>Git & GitHub</li>
               <li>Deployment (Netlify, Render, Heroku)</li>
