@@ -41,15 +41,19 @@ const HeroSection = () => {
                 
                 }
                 >
-                I am a junior web developer with a passion for creating user-friendly web applications.
-                I have a strong background in computer science and a keen eye for design, which allows me to bridge the gap between functionality and aesthetics.
-                My goal is to build applications that not only meet user needs but also provide an enjoyable experience.
+               I’m Darius Olsson Carter, a Junior Frontend / Full-stack Developer with a strong focus on building modern, 
+               user-friendly web and mobile applications. I combine solid technical foundations with a clear understanding of usability, performance, and maintainable code.
             </p>
             <p style={{ fontWeight: 'bold' }}>
-                I specialize in front-end development, crafting clean, intuitive user interfaces that ensure an inclusive experience across all devices and platforms.
-                My development stack includes JavaScript, HTML, CSS, and React, allowing me to build responsive and engaging web applications. 
-                I also work with Node.js to handle backend logic, giving me full control over the entire user experience—from front-end interaction to server-side processing.
-                My focus is always on writing clean, maintainable code that enhances performance and accessibility for all users.
+                I specialize in frontend development using React and TypeScript, creating clean, responsive, and accessible user interfaces. I also have hands-on experience with React Native for mobile apps and Node.js on the backend, which allows me to work across the full stack and understand how frontend and backend systems interact in real-world applications.
+
+Through personal projects and professional experience,
+ I’ve built and deployed full-stack solutions involving authentication, databases, APIs, state management, and cloud deployment.
+  I enjoy turning complex requirements into structured, 
+  intuitive solutions and take pride in writing code that is easy to understand, extend, and maintain.
+
+I’m motivated by continuous learning, collaboration, and building digital products that create real value for users.
+ I’m currently seeking opportunities as a junior frontend or full-stack developer where I can grow alongside experienced teammates and contribute to high-quality, user-focused products.
             </p>
 
             {/* Web App Image */}
