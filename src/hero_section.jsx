@@ -77,7 +77,16 @@ I’m motivated by continuous learning, collaboration, and building digital prod
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>React</li>
+                <li>TypeScript</li>
+                <li>React Native</li>
+                <li>Material-UI</li>
+                <li>Git & GitHub</li>
+                <li>State Management</li>
+                <li>Responsive & Mobile-First Design</li>
+                <li>Accessibility</li>
                 <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>MySql</li>
                 <li>Responsive Design</li>
             </ul>
 
