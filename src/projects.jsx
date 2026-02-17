@@ -6,6 +6,7 @@ import img3 from './images/weatherapps-android-1weather-5b751ae9c9e77c0057fc06d5
 import img4 from './images/IMG_3849.jpeg';
 import img5 from './images/musicrewardsphoto.jpg';
 import img6 from './images/exceltoMysql.png';
+import img7 from './images/dataops.jpg';
 export const projectData = [
   {
     id: 1,
@@ -48,6 +49,14 @@ export const projectData = [
   img: img6,
   github: 'https://github.com/phenomenalCode/extract-data-from-excel-file/tree/main',
 },
+{
+  id: 7,
+  title: 'DataOps Formatter CLI',
+  description: 'DataOps Formatter is a Python-based CLI tool for automating the formatting of CSV datasets into clean, aligned tables. It is designed for large datasets, workflow automation, and infrastructure-friendly pipelines. The project demonstrates robust logging, modular and testable code, Linux friendly command-line operations, and structured script design. Users can generate text or HTML output, validate CSV structure, and integrate the tool into cron jobs or CI/CD workflows, making it ideal for repeatable data processing and automation tasks.',
+  img: img7,
+  github: 'https://github.com/phenomenalCode/dataops-formatter/tree/main',
+},
+,
 
 ];
 
