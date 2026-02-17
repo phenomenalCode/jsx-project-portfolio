@@ -41,19 +41,14 @@ const HeroSection = () => {
                 
                 }
                 >
-               I’m Darius Olsson Carter, a Junior Frontend / Full-stack Developer with a strong focus on building modern, 
-               user-friendly web and mobile applications. I combine solid technical foundations with a clear understanding of usability, performance, and maintainable code.
+              I am Darius Olsson Carter, a Junior Software Engineer with experience building and deploying full-stack systems. I combine application development with an understanding of infrastructure, automation, and how software operates in real production environments.
             </p>
             <p style={{ fontWeight: 'bold' }}>
-                I specialize in frontend development using React and TypeScript, creating clean, responsive, and accessible user interfaces. I also have hands-on experience with React Native for mobile apps and Node.js on the backend, which allows me to work across the full stack and understand how frontend and backend systems interact in real-world applications.
+              My background includes frontend development with React and TypeScript, backend services with Node.js, and working with authentication, APIs, and database design. Through my projects, I have built and deployed complete solutions, gaining hands-on experience with Linux environments, logging, automation scripts, and structured system workflows.
 
-Through personal projects and professional experience,
- I’ve built and deployed full-stack solutions involving authentication, databases, APIs, state management, and cloud deployment.
-  I enjoy turning complex requirements into structured, 
-  intuitive solutions and take pride in writing code that is easy to understand, extend, and maintain.
+I enjoy analyzing technical problems, structuring maintainable solutions, and improving workflows through automation and clear system design. Working across both development and operational aspects of software has strengthened my ability to understand systems end-to-end rather than focusing on a single layer.
 
-I’m motivated by continuous learning, collaboration, and building digital products that create real value for users.
- I’m currently seeking opportunities as a junior frontend or full-stack developer where I can grow alongside experienced teammates and contribute to high-quality, user-focused products.
+I am seeking opportunities where I can continue growing as a software engineer while deepening my competence in systems, infrastructure, and reliable technical environments.
             </p>
 
             {/* Web App Image */}
