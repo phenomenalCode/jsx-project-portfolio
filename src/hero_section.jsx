@@ -119,6 +119,7 @@ I’m motivated by continuous learning, collaboration, and building digital prod
               <li>System Administration Basics</li>
               <li>Virtualization (VirtualBox)</li>
               <li>Automation-Friendly Workflows</li>
+              <li>Continuous Integration / Continuous Deployment (CI/CD)</li>
             </ul>
 
           </div>
@@ -128,6 +129,7 @@ I’m motivated by continuous learning, collaboration, and building digital prod
             <ul>
               <li>Git & GitHub</li>
               <li>Deployment (Netlify, Render, Heroku)</li>
+              <li>Vite, NPM, Bash Scripting</li>
             </ul>
           </div>
 
