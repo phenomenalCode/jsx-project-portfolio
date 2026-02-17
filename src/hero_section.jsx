@@ -41,7 +41,7 @@ const HeroSection = () => {
                 
                 }
                 >
-              I am Darius Olsson Carter, a Junior Software Engineer with experience building and deploying full-stack systems. I combine application development with an understanding of infrastructure, automation, and how software operates in real production environments.
+              And i am a Junior Software Engineer with experience building and deploying full-stack systems. I combine application development with an understanding of infrastructure, automation, and how software operates in real production environments.
             </p>
             <p style={{ fontWeight: 'bold' }}>
               My background includes frontend development with React and TypeScript, backend services with Node.js, and working with authentication, APIs, and database design. Through my projects, I have built and deployed complete solutions, gaining hands-on experience with Linux environments, logging, automation scripts, and structured system workflows.
