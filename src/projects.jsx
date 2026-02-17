@@ -6,7 +6,7 @@ import img3 from './images/weatherapps-android-1weather-5b751ae9c9e77c0057fc06d5
 import img4 from './images/IMG_3849.jpeg';
 import img5 from './images/musicrewardsphoto.jpg';
 import img6 from './images/exceltoMysql.png';
-import img7 from './images/dataops.jpg';
+import img7 from './images/dataops.jpeg';
 export const projectData = [
   {
     id: 1,
