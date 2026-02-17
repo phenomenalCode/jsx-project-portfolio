@@ -106,7 +106,21 @@ I’m motivated by continuous learning, collaboration, and building digital prod
               <li>Authentication (JWT, Sessions)</li>
               <li>MongoDB (Mongoose)</li>
               <li>MySQL</li>
+              <li>Logging, Error Handling & Testable Code</li>
+              <li>Workflow & File Processing Scripts</li>
+              <li>CLI Tool Development & Automation</li>
             </ul>
+          </div>
+
+          <div>
+            <h3  style={{ backgroundColor: '#001f7a', color: 'white' }}>Linux & Infrastructure</h3>
+            <ul>
+              <li>Linux Command-Line Operations & Scripting</li>
+              <li>System Administration Basics</li>
+              <li>Virtualization (VirtualBox)</li>
+              <li>Automation-Friendly Workflows</li>
+            </ul>
+
           </div>
 
           <div>
