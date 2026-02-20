@@ -102,6 +102,7 @@ I am seeking opportunities where I can continue growing as a software engineer w
               <li>MongoDB (Mongoose)</li>
               <li>MySQL</li>
               <li>Logging, Error Handling & Testable Code</li>
+              <li>Unit Testing & Test-Driven Development (Python unittest, Node.js Jest)</li>
               <li>Workflow & File Processing Scripts</li>
               <li>CLI Tool Development & Automation</li>
             </ul>

@@ -52,11 +52,10 @@ export const projectData = [
 {
   id: 7,
   title: 'DataOps Formatter CLI',
-  description: 'DataOps Formatter is a Python-based CLI tool for automating the formatting of CSV datasets into clean, aligned tables. It is designed for large datasets, workflow automation, and infrastructure-friendly pipelines. The project demonstrates robust logging, modular and testable code, Linux friendly command-line operations, and structured script design. Users can generate text or HTML output, validate CSV structure, and integrate the tool into cron jobs or CI/CD workflows, making it ideal for repeatable data processing and automation tasks.',
+  description: 'DataOps Formatter is a Python-based CLI tool for automating the formatting of CSV datasets into clean, aligned tables. The project demonstrates robust logging, modular and testable code, and Linux-friendly command-line operations. Comprehensive unit tests were implemented using Python\'s unittest framework, following a test-driven development (TDD) approach to ensure correctness and reliability. Users can generate text or HTML output, validate CSV structure, and integrate the tool into cron jobs or CI/CD workflows, making it ideal for repeatable data processing and automation tasks.',
   img: img7,
   github: 'https://github.com/phenomenalCode/dataops-formatter/tree/main',
 },
-,
 
 ];
 
