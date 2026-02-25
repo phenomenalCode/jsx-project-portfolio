@@ -37,6 +37,7 @@ const HeroSection = () => {
 
             {/* Text content */}
             <h1 style={{ marginTop: '2rem' }}>I am Darius Olsson Carter</h1>
+            <h2 style={{ marginBottom: '1rem' }}>Junior Software Engineer | Full-Stack, Automation & Systems</h2>
             <p  style={{ fontWeight: 'bold' }
                 
                 }
