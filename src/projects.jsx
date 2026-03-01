@@ -38,7 +38,7 @@ export const projectData = [
 },{
   id: 5,
   title: 'Music Rewards App',
-  description: 'MusicRewards is a TypeScript/React Native (Expo) app that provides short music "challenges" (listen to tracks to earn points). It\'s implemented with Expo and React Native, uses Zustand for local app state with AsyncStorage persistence, and expo-av for audio playback. UI is componentized into challenge cards, lists, and small UI primitives (GlassButton/GlassCard) with a central theme tokens file.',
+  description: ' MusicRewards is a TypeScript-based React Native (Expo) mobile application that delivers short music challenges where users earn points by listening to tracks. The app uses Zustand for structured state management with AsyncStorage for persistent local storage, and integrates native audio playback through expo-av. On the Android side, I modified native Kotlin files (MainActivity.kt and MainApplication.kt) to configure the React Native host, register native modules, and support custom dev-client / EAS builds. The UI is built with reusable, component-based architecture (challenge cards, lists, and custom UI primitives such as GlassButton and GlassCard) organized around a centralized design token system for consistent theming',
   img: img5,
   github: 'https://github.com/phenomenalCode/Darius-Music-Reward-App/tree/main',
 },
