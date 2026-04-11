@@ -32,7 +32,7 @@ export const projectData = [
  {
   id: 4,
   title: 'Task Manager',
-  description: 'A full-stack task and project management app with authentication, group collaboration, and file uploads. Built with React (Vite), Zustand, and Material-UI on the frontend, and Node.js, Express, and MongoDB with GridFS on the backend. Features include dark mode, filtering, sorting, and real-time project completion tracking.',
+  description: 'Designed and developed a full-stack task and collaboration system supporting team workflows, project tracking, and file management. Implements secure JWT authentication, modular state management with Zustand, and scalable backend architecture using Node.js, Express, and MongoDB',
   img: img4,
   github: 'https://github.com/phenomenalCode/project-final-darius/tree/main',
 },{
