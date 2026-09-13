@@ -11,7 +11,7 @@ import img8 from './images/NOC-PROJ.png';
 export const projectData = [
   {
     id: 1,
-    title: 'sentinel — Network Monitoring Engine',
+    title: 'sentinel — Network Monitoring Engine - available on request',
     description: 'A self-hosted network-operations tool for a home LAN. Reads live DNS query traffic directly from Pi-hole\'s database and runs stateful detection rules over it: one that flags devices making bursts of blocked lookups (possible malware or IoT beaconing), and one that flags unrecognized devices joining the network. A background thread runs nmap ARP sweeps to keep a live device inventory independent of DNS activity. Every detection becomes a uniform green/amber/red status through a decoupled contract, so new rules or outputs plug in without touching the core. Instrumented with labeled Prometheus metrics on a /metrics endpoint, persists devices and alerts to SQLite, and includes a CLI console for querying live state. Built with Python, SQLite, Prometheus, nmap, Pi-hole and Docker.',
     img: img8,
     github: null,

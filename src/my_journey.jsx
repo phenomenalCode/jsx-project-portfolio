@@ -24,32 +24,45 @@ export const AboutMe = () => {
           textAlign: 'center',
         }}
       >
-        Why i code!
+        My Journey
       </h2>
       <p
         style={{
-          fontWeight: 'bold',
-          lineHeight: '1.6',
+          lineHeight: '1.7',
           color: '#6fa8fc',
           marginBottom: '1rem',
         }}
       >
-        My passion for technology is not just about writing code — it's about solving problems and finding
-        innovative solutions. Throughout my studies and personal projects, I have practiced my ability to
-        analyze complex challenges and break them down into manageable steps, which has strengthened both my
-        structured and creative approach to development.
+        I came into tech through building. I started with full-stack development at the Technigo bootcamp,
+        learning to design and deploy real applications with React, TypeScript, and Node.js, and I got hooked
+        on the problem-solving side, breaking complex challenges into manageable steps and figuring out how the
+        pieces actually fit together.
       </p>
       <p
         style={{
-          fontWeight: 'bold',
-          lineHeight: '1.6',
+          lineHeight: '1.7',
           color: '#6fa8fc',
+          marginBottom: '1rem',
         }}
       >
-        During my studies, I had the opportunity to develop my skills in modern front-end technologies. I have
-        built a solid understanding of designing and optimizing efficient and scalable solutions. I value the
-        balance between logic and creativity in programming and especially enjoy working on user-centered
-        solutions that combine functionality with design.
+        The more I built, the more I wanted to understand what happens beneath the application, how systems run,
+        stay stable, and fail. That pulled me toward IT operations and infrastructure. I earned four Cisco
+        certifications in networking and security, and I taught myself by building: a Windows Server Active
+        Directory environment from scratch (DNS, DHCP, Group Policy, all automated with PowerShell), a segmented
+        pfSense network, and a Python-based network monitoring tool that ingests live traffic, runs detection
+        rules, and exposes Prometheus metrics.
+      </p>
+      <p
+        style={{
+          lineHeight: '1.7',
+          color: '#6fa8fc',
+          marginBottom: 0,
+        }}
+      >
+        What I enjoy most is the operational side, monitoring, automation, and troubleshooting problems down to
+        the root cause, backed by the ability to actually build the tooling around it. I document everything I do,
+        I learn fast, and I'm looking to grow in a role focused on IT operations, infrastructure, and reliable
+        systems.
       </p>
     </motion.div>
   );
