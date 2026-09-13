@@ -33,10 +33,10 @@ export const AboutMe = () => {
           marginBottom: '1rem',
         }}
       >
-        I came into tech through building. I started with full-stack development at the Technigo bootcamp,
-        learning to design and deploy real applications with React, TypeScript, and Node.js, and I got hooked
-        on the problem-solving side, breaking complex challenges into manageable steps and figuring out how the
-        pieces actually fit together.
+        I came into tech through building. I studied IT and programming at JENSEN and then went through the
+        Technigo full-stack bootcamp, learning to design and deploy real applications with React, TypeScript,
+        and Node.js, and I got hooked on the problem-solving side, breaking complex challenges into manageable
+        steps and figuring out how the pieces actually fit together.
       </p>
       <p
         style={{
