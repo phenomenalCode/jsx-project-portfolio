@@ -1,6 +1,7 @@
 import img from './images/IMG_3912.jpeg';
 import img2 from './images/shutterstock_394793860-1536x1177.jpg';
-
+import img3 from './images/1659.jpg';
+import myVideo from './videos/net-spirit-green.webm';
 const HeroSection = () => {
     const scrollToElement = (id) => {
         const element = document.getElementById(id);
@@ -36,98 +37,70 @@ const HeroSection = () => {
 
 
             {/* Text content */}
-            <h1 style={{ marginTop: '2rem' }}>I am Darius Olsson Carter</h1>
-            <h2 style={{ marginBottom: '1rem' }}>Junior Software Engineer | Full-Stack, Automation & Systems</h2>
-            <p  style={{ fontWeight: 'bold' }
-                
-                }
-                >
-              And i am a Junior Software Engineer with experience building and deploying full-stack systems. I combine application development with an understanding of infrastructure, automation, and how software operates in real production environments.
-            </p>
-            <p style={{ fontWeight: 'bold' }}>
-              My background includes frontend development with React and TypeScript, backend services with Node.js, and working with authentication, APIs, and database design. Through my projects, I have built and deployed complete solutions, gaining hands-on experience with Linux environments, logging, automation scripts, and structured system workflows.
+            <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center', gap: '2rem', marginTop: '2rem' }}>
+                <div style={{ textAlign: 'left', maxWidth: '680px' }}>
+                    <h1 className="hero-about">Darius Olsson Carter</h1>
+                    <h2 className="hero-about" style={{ marginBottom: '2.9rem' , color: '#6fa8fc' }}>Junior IT Operations & Full-Stack Engineer | Systems, Automation & Infrastructure</h2>
+                    <p className="hero-about" style={{ fontWeight: 'bold' }}>
+                      I work where software meets infrastructure. I build and deploy full-stack applications, but what I enjoy most is understanding how systems actually run in production, monitoring them, automating the repetitive work, and troubleshooting problems down to the root cause.
+                    </p>
+                    <p className="hero-about" style={{ fontWeight: 'bold' }}>
+                      My hands-on experience spans both sides. On the operations side, I have built and administered a Windows Server Active Directory environment (DNS, DHCP, Group Policy) automated with PowerShell, designed a segmented pfSense network, and built a Python-based network monitoring tool with detection rules and Prometheus metrics. On the development side, I build full-stack apps with React, TypeScript, and Node.js, working with authentication, APIs, and databases, backed by a full-stack bootcamp and four Cisco certifications.
+                    </p>
+                    <p className="hero-about" style={{ fontWeight: 'bold' }}>
+                      I like analyzing problems methodically, documenting clearly, and improving how things run through automation and solid system design. I am looking to grow in a role focused on IT operations, infrastructure, and reliable systems, where I can keep building on both my development and operational experience.
+                    </p>
+                </div>
 
-I enjoy analyzing technical problems, structuring maintainable solutions, and improving workflows through automation and clear system design. Working across both development and operational aspects of software has strengthened my ability to understand systems end-to-end rather than focusing on a single layer.
-
-I am seeking opportunities where I can continue growing as a software engineer while deepening my competence in systems, infrastructure, and reliable technical environments.
-            </p>
+                <img
+                    src={img3}
+                    alt="HARDWARE"
+                    style={{ width: '350px',marginRight: '30px', height: '590px', borderRadius: '8px' }}
+                />
+            </div>
 
             {/* Web App Image */}
-            <img
-                src={img2}
-                alt="Web App"
-                style={{ width: '300px',
-                    height: '300px',
-                    borderRadius: '50%',
-                    overflow: 'hidden',
-                    margin: '0 auto',
-                }}
-            />
-
+      <video
+  src={myVideo}
+  autoPlay
+  loop
+  muted
+  playsInline
+  style={{
+    width: '300px',
+    height: '300px',
+    borderRadius: '10%',
+    objectFit: 'cover',   // crucial — keeps the video filling the circle without distortion
+    margin: '0 auto',
+    display: 'block',
+  }}
+/>
             {/* Skills */}
-            <h2 className="skills-list" style={{ marginTop: '2rem' ,
-                left: '200px',
+            <h2 className="skills-list" style={{  color: '#6fa8fc', gap: '1rem', marginTop: '3rem', marginBottom: '1rem'
+              
             }}>My Skills</h2>
            
               
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
-          
-          <div>
-            <h3 style={{ backgroundColor: '#001f7a', color: 'white' }}>Frontend</h3>
-            <ul>
-              <li>JavaScript (ES6+)</li>
-              <li>TypeScript</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>React</li>
-              <li>React Native (Expo)</li>
-              <li>Material-UI (MUI)</li>
-              <li>Responsive & Mobile-First Design</li>
-              <li>Accessibility (WCAG basics)</li>
-            </ul>
+                <div className="skills-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
+
+          <div className="skills-card">
+            <h3 style={{ backgroundColor: '#22ff9458', color: 'white' }}>Networking & Infrastructure</h3>
+            <p className="skills-group">Active Directory · Group Policy (GPO) · DNS/DHCP · TCP/IP · Windows Server 2022 · pfSense · Linux/Ubuntu · Virtualization (VirtualBox)</p>
           </div>
 
-          <div>
-            <h3  style={{ backgroundColor: '#001f7a', color: 'white' }}>State & Architecture</h3>
-            <ul>
-              <li>State Management (Zustand)</li>
-              <li>Component-Based Architecture</li>
-            </ul>
+          <div className="skills-card">
+            <h3 style={{ backgroundColor: '#22ff9458', color: 'white' }}>Scripting, Automation & Monitoring</h3>
+            <p className="skills-group">PowerShell · Bash · Python · CLI Tool Development · Automation Workflows · Prometheus · Log Analysis · CI/CD</p>
           </div>
 
-          <div>
-            <h3  style={{ backgroundColor: '#001f7a', color: 'white' }}>Backend</h3>
-            <ul>
-              <li>Node.js</li>
-              <li>Authentication (JWT, Sessions)</li>
-              <li>MongoDB (Mongoose)</li>
-              <li>MySQL</li>
-              <li>Logging, Error Handling & Testable Code</li>
-              <li>Unit Testing & Test-Driven Development (Python unittest, Node.js Jest)</li>
-              <li>Workflow & File Processing Scripts</li>
-              <li>CLI Tool Development & Automation</li>
-            </ul>
+          <div className="skills-card">
+            <h3 style={{ backgroundColor: '#22ff9458', color: 'white' }}>Backend & Data</h3>
+            <p className="skills-group">Node.js · Express · REST APIs · Authentication (JWT, Sessions) · MySQL · MongoDB · Unit Testing (Jest, pytest)</p>
           </div>
 
-          <div>
-            <h3  style={{ backgroundColor: '#001f7a', color: 'white' }}>Linux & Infrastructure</h3>
-            <ul>
-              <li>Linux Command-Line Operations & Scripting</li>
-              <li>System Administration Basics</li>
-              <li>Virtualization (VirtualBox)</li>
-              <li>Automation-Friendly Workflows</li>
-              <li>Continuous Integration / Continuous Deployment (CI/CD)</li>
-            </ul>
-
-          </div>
-
-          <div>
-            <h3  style={{ backgroundColor: '#001f7a', color: 'white' }}>Tools & Deployment</h3>
-            <ul>
-              <li>Git & GitHub</li>
-              <li>Deployment (Netlify, Render, Heroku)</li>
-              <li>Vite, NPM, Bash Scripting</li>
-            </ul>
+          <div className="skills-card">
+            <h3 style={{ backgroundColor: '#22ff9458', color: 'white' }}>Frontend</h3>
+            <p className="skills-group">JavaScript (ES6+) · TypeScript · React · React Native · HTML5/CSS3 · Responsive Design</p>
           </div>
 
         </div>

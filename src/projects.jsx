@@ -7,55 +7,67 @@ import img4 from './images/IMG_3849.jpeg';
 import img5 from './images/musicrewardsphoto.jpg';
 import img6 from './images/exceltoMysql.png';
 import img7 from './images/dataops.jpeg';
+import img8 from './images/NOC-PROJ.png';
 export const projectData = [
   {
     id: 1,
+    title: 'sentinel — Network Monitoring Engine',
+    description: 'A self-hosted network-operations tool for a home LAN. Reads live DNS query traffic directly from Pi-hole\'s database and runs stateful detection rules over it: one that flags devices making bursts of blocked lookups (possible malware or IoT beaconing), and one that flags unrecognized devices joining the network. A background thread runs nmap ARP sweeps to keep a live device inventory independent of DNS activity. Every detection becomes a uniform green/amber/red status through a decoupled contract, so new rules or outputs plug in without touching the core. Instrumented with labeled Prometheus metrics on a /metrics endpoint, persists devices and alerts to SQLite, and includes a CLI console for querying live state. Built with Python, SQLite, Prometheus, nmap, Pi-hole and Docker.',
+    img: img8,
+    github: null,
+    privateRepo: true,
+    github: 'https://github.com/phenomenalCode/NOC-app',
+  },
+  {
+    id: 2,
+    title: 'DataOps Formatter CLI',
+    description: 'DataOps Formatter is a Python-based CLI tool for automating the formatting of CSV datasets into clean, aligned tables. The project demonstrates robust logging, modular and testable code, and Linux-friendly command-line operations. Comprehensive unit tests were implemented using Python\'s unittest framework, following a test-driven development (TDD) approach to ensure correctness and reliability. Users can generate text or HTML output, validate CSV structure, and integrate the tool into cron jobs or CI/CD workflows, making it ideal for repeatable data processing and automation tasks.',
+    img: img7,
+    github: 'https://github.com/phenomenalCode/dataops-formatter/tree/main',
+  },
+  {
+    id: 3,
     title: 'Reconomy Check-In App',
     description: 'Check-in system and admin dashboard designed for Reconomy AB. A full-stack employee time-tracking system built with Node.js, Express, and MySQL, featuring Employee Management , Create, update, and filter employee records Time Logging , Log check-in/out events with optional comments Admin Login , Session-based authentication for protected routes Cross-Origin Support , Fully functional CORS setup for Netlify Heroku deployment, Backend hosted on Heroku, frontend on Netlify',
     img: img1,
     github: 'https://github.com/phenomenalCode/Reconomy',
   },
   {
-    id: 2,
+    id: 4,
+    title: 'Task Manager',
+    description: 'Designed and developed a full-stack task and collaboration system supporting team workflows, project tracking, and file management. Implements secure JWT authentication, modular state management with Zustand, and scalable backend architecture using Node.js, Express, and MongoDB',
+    img: img4,
+    github: 'https://github.com/phenomenalCode/project-final-darius/tree/main',
+  },
+  {
+    id: 5,
+    title: 'Music Rewards App',
+    description: ' MusicRewards is a TypeScript-based React Native (Expo) mobile application that delivers short music challenges where users earn points by listening to tracks. The app uses Zustand for structured state management with AsyncStorage for persistent local storage, and integrates native audio playback through expo-av. On the Android side, I modified native Kotlin files (MainActivity.kt and MainApplication.kt) to configure the React Native host, register native modules, and support custom dev-client / EAS builds. The UI is built with reusable, component-based architecture (challenge cards, lists, and custom UI primitives such as GlassButton and GlassCard) organized around a centralized design token system for consistent theming',
+    img: img5,
+    github: 'https://github.com/phenomenalCode/Darius-Music-Reward-App/tree/main',
+  },
+  {
+    id: 6,
     title: 'Happy Thoughts',
     description: 'Happy Thoughts is a full-stack web app where users can post uplifting messages, like others thoughts, and manage their own posts. It includes user authentication, random thought display, and like tracking.Tools used: React, MUI, Node.js, Express, MongoDB (Mongoose), JWT, Netlify, Render.',
     img: img2,
     github: 'https://github.com/phenomenalCode/js-project-happy-thoughts/tree/happywbackend',
   },
   {
-    id: 3,
+    id: 7,
+    title: 'Extract excel data',
+    description: 'Excel Employee Data Extractor – A Node.js script that reads employee info from Excel sheets and automatically imports it into a MySQL database, handling multiple sheets and rows with error logging.',
+    img: img6,
+    github: 'https://github.com/phenomenalCode/extract-data-from-excel-file/tree/main',
+  },
+  {
+    id: 8,
     title: 'Weather App',
     description: 'A simple weather forecast app. It displays current weather and a 4-day forecast using the OpenWeatherMap API. Users can search cities or cycle through presets (Stockholm, Gothenburg, Oslo). It shows temperature, weather icons, sunrise/sunset times, and updates the background dynamically based on conditions. Weather data is cached using localStorage.',
     img: img3,
     github: 'https://github.com/phenomenalCode/weather-app',
   },
- {
-  id: 4,
-  title: 'Task Manager',
-  description: 'Designed and developed a full-stack task and collaboration system supporting team workflows, project tracking, and file management. Implements secure JWT authentication, modular state management with Zustand, and scalable backend architecture using Node.js, Express, and MongoDB',
-  img: img4,
-  github: 'https://github.com/phenomenalCode/project-final-darius/tree/main',
-},{
-  id: 5,
-  title: 'Music Rewards App',
-  description: ' MusicRewards is a TypeScript-based React Native (Expo) mobile application that delivers short music challenges where users earn points by listening to tracks. The app uses Zustand for structured state management with AsyncStorage for persistent local storage, and integrates native audio playback through expo-av. On the Android side, I modified native Kotlin files (MainActivity.kt and MainApplication.kt) to configure the React Native host, register native modules, and support custom dev-client / EAS builds. The UI is built with reusable, component-based architecture (challenge cards, lists, and custom UI primitives such as GlassButton and GlassCard) organized around a centralized design token system for consistent theming',
-  img: img5,
-  github: 'https://github.com/phenomenalCode/Darius-Music-Reward-App/tree/main',
-},
-{
-  id: 6,
-  title: 'Extract excel data',
-  description: 'Excel Employee Data Extractor – A Node.js script that reads employee info from Excel sheets and automatically imports it into a MySQL database, handling multiple sheets and rows with error logging.',
-  img: img6,
-  github: 'https://github.com/phenomenalCode/extract-data-from-excel-file/tree/main',
-},
-{
-  id: 7,
-  title: 'DataOps Formatter CLI',
-  description: 'DataOps Formatter is a Python-based CLI tool for automating the formatting of CSV datasets into clean, aligned tables. The project demonstrates robust logging, modular and testable code, and Linux-friendly command-line operations. Comprehensive unit tests were implemented using Python\'s unittest framework, following a test-driven development (TDD) approach to ensure correctness and reliability. Users can generate text or HTML output, validate CSV structure, and integrate the tool into cron jobs or CI/CD workflows, making it ideal for repeatable data processing and automation tasks.',
-  img: img7,
-  github: 'https://github.com/phenomenalCode/dataops-formatter/tree/main',
-},
+
 
 ];
 

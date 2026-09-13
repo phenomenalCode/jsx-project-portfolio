@@ -11,7 +11,7 @@ export const AboutMe = () => {
         maxWidth: '800px',
         margin: '0 auto',
         padding: '2rem',
-        backgroundColor: '#f5f7fa',
+        backgroundColor: '#00223f',
         borderRadius: '12px',
         boxShadow: '0 4px 12px rgba(0,0,0,0.05)',
       }}
@@ -20,7 +20,7 @@ export const AboutMe = () => {
         style={{
           fontSize: '2rem',
           marginBottom: '1rem',
-          color: '#001f7a',
+          color: '#6fa8fc',
           textAlign: 'center',
         }}
       >
@@ -30,7 +30,7 @@ export const AboutMe = () => {
         style={{
           fontWeight: 'bold',
           lineHeight: '1.6',
-          color: '#333',
+          color: '#6fa8fc',
           marginBottom: '1rem',
         }}
       >
@@ -43,7 +43,7 @@ export const AboutMe = () => {
         style={{
           fontWeight: 'bold',
           lineHeight: '1.6',
-          color: '#333',
+          color: '#6fa8fc',
         }}
       >
         During my studies, I had the opportunity to develop my skills in modern front-end technologies. I have

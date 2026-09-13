@@ -7,14 +7,14 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background: #f0f2f5;
+  background: #00223f;
   color: #333;
 }
 
 /* ——— HEADER ——— */
 header {
-  background: #001f7a;
-  color: white;
+  background: #00021377;
+  color: rgb(54, 152, 194);
   padding: 1.5rem 0;
   text-align: center;
   font-size: 1.5rem;
@@ -25,7 +25,7 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem 1rem;
-  background-color: #22ff9458;
+  
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
@@ -37,7 +37,7 @@ main {
   align-items: center;
   text-align: center;
   padding: 2.5rem 1rem; /* reduced from 4rem */
-  background: #f5f7fa;
+  background: #00223f;
 }
 
 .hero-section .profile-image {
@@ -50,15 +50,15 @@ main {
 .hero-section h1 {
   font-size: 2.25rem; /* was 2.75rem */
   margin-bottom: 0.75rem;
-  color: #001f7a;
+  color: #6fa8fc;
 }
 
-.hero-section p {
+.hero-section p.hero-about {
   max-width: 500px;
   margin-bottom: 0.75rem;
   line-height: 1.6; /* slightly less line spacing */
   font-size: 1.05rem; /* slightly smaller font */
-  color: #333;
+  color: #6fa8fc;
   padding: 0.25rem;
 }
 
@@ -75,34 +75,48 @@ main {
 .hero-section .skills-list {
   margin-top: 2rem;
   font-size: 1.5rem;
-  color: #001f7a;
+  color: #6fa8fc;
 }
 
-.hero-section ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 1rem 0;
+.hero-section .skills-card {
+  background-color: #ffffff0d;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+}
+.hero-section .skills-card h3 {
+  margin: 0;
+  padding: 0.6rem 0.9rem;
+  font-size: 1rem;
+}
+.hero-section .skills-group {
+  margin: 0;
+  padding: 0.8rem 0.9rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #6fa8fc;
+}
+.hero-section-about {
+  margin-top: 2rem;
   font-size: 1.1rem;
-  background-color: #003bb5;
-  color: #fff;
-  width: 100%;
-}
-
-.hero-section ul li {
-  margin-bottom: 0.5rem;
+  color: #6fa8fc;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ——— PROJECTS SECTION ——— */
 .projects {
   padding: 4rem 1rem;
-  background: #f5f7fa;
+  background: #00223f;
 }
 
 .projects h2 {
   text-align: center;
   font-size: 2.25rem;
   margin-bottom: 2rem;
-  color: #001f7a;
+  color: #6fa8fc;
 }
 
 .project-list {
@@ -114,7 +128,7 @@ main {
 }
 
 .project-card {
-  background: #f9f9f9;
+  background: #00223f;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -136,13 +150,13 @@ main {
 .project-card h3 {
   font-size: 1.3rem;
   margin: 1rem;
-  color: #001f7a;
+  color: #6fa8fc;
 }
 
 .project-card p {
   flex-grow: 1;
   margin: 0 1rem 1rem;
-  color: #444;
+  color: #6fa8fc;
   font-size: 1rem;
   line-height: 1.5;
 }
