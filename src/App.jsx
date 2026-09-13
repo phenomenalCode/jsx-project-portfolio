@@ -5,6 +5,7 @@ import { AboutMe } from './my_journey.jsx';
 import HeroSection from './hero_section.jsx';
 import { ContactInfo } from './contact.jsx';
 import { Experience } from './internships.jsx';
+import { Labs } from './labs.jsx';
 export const App = () => {
  
 
@@ -19,6 +20,7 @@ export const App = () => {
                 <HeroSection />
                 <Experience />
                 <AboutMe />
+                <Labs />
                 <Projects projectData={projectData} />
                 <ContactInfo />
 
