@@ -11,36 +11,14 @@ const HeroSection = () => {
     };
     
     return (
-        <div className="hero-section" style={{ padding: '2rem', textAlign: 'center' }}>
-            {/* Circular Profile Image */}
-           <div
-  style={{
-    width: '300px',
-    height: '400px',
-    borderRadius: '50%',
-    overflow: 'hidden',
-    margin: '0 auto',
-  }}
->
-  <img 
-    src={img} 
-    alt="Profile" 
-    style={{
-      width: '100%',
-      height: '100%',
-      objectFit: 'cover',
-      transform: 'scale(0.9)', // scale down to zoom out
-      transition: 'transform 0.3s', // optional, smooth effect
-    }}
-  />
-</div>
+        <div className="hero-section" style={{ padding: '2rem',  color: '#ffffff' }}>
 
 
             {/* Text content */}
             <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'center', gap: '2rem', marginTop: '2rem' }}>
                 <div style={{ textAlign: 'left', maxWidth: '680px' }}>
                     <h1 className="hero-about">Darius Olsson Carter</h1>
-                    <h2 className="hero-about" style={{ marginBottom: '2.9rem' , color: '#6fa8fc' }}>Junior IT Operations & Full-Stack Engineer | Systems, Automation & Infrastructure</h2>
+                    <h2 className="hero-about" style={{ marginBottom: '2.9rem' , color: '#6fa8fc' }}>IT, Software & Systems</h2>
                     <p className="hero-about" style={{ fontWeight: 'bold' }}>
                       I work where software meets infrastructure. I build and deploy full-stack applications, but what I enjoy most is understanding how systems actually run in production, monitoring them, automating the repetitive work, and troubleshooting problems down to the root cause.
                     </p>

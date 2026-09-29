@@ -37,7 +37,7 @@ export const Experience = () => {
 
       <div>
         <h3 style={{ color: '#6fa8fc', marginBottom: '0.25rem' }}>
-          Web Developer — Right by Me
+          Site maintenance intern — Right by Me
         </h3>
         <p style={{ color: '#6fa8fc', fontSize: '0.85rem', opacity: 0.8, marginBottom: '0.5rem' }}>
           Internship · 2025
