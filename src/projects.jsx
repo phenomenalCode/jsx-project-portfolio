@@ -31,7 +31,7 @@ export const projectData = [
   },
   {
     id: 3,
-    tools: ['Node.js', 'Express', 'MySQL', 'Netlify', 'Heroku'],
+    tools: ['Node.js', 'Express', 'MySQL', 'Netlify', 'Heroku','HTML','CSS'],
     title: 'Reconomy Check-In App',
     description: 'Check-in system and admin dashboard designed for Reconomy AB. A full-stack employee time-tracking system built with Node.js, Express, and MySQL, featuring Employee Management , Create, update, and filter employee records Time Logging , Log check-in/out events with optional comments Admin Login , Session-based authentication for protected routes Cross-Origin Support , Fully functional CORS setup for Netlify Heroku deployment, Backend hosted on Heroku, frontend on Netlify',
     img: img1,
@@ -71,7 +71,7 @@ export const projectData = [
   },
   {
     id: 8,
-    tools: ['React', 'Vite', 'CSS', 'OpenWeatherMap API'],
+    tools: ['TypeScript', 'JavaScript', 'CSS', 'OpenWeatherMap API'],
     title: 'Weather App',
     description: 'A simple weather forecast app. It displays current weather and a 4-day forecast using the OpenWeatherMap API. Users can search cities or cycle through presets (Stockholm, Gothenburg, Oslo). It shows temperature, weather icons, sunrise/sunset times, and updates the background dynamically based on conditions. Weather data is cached using localStorage.',
     img: img3,
